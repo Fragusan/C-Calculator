@@ -203,7 +203,9 @@ int main (){
 					Sleep(3500);
 					break;
 				default:
-					errorMsj("OPERACIÓN INGRESADA INVÁLIDA");
+					//(18,14,52,16) 47
+					errorMsj("OPERACIÓN INGRESADA INVÁLIDA ", 18, 14, 48, 16);
+					Sleep(2500);
 					system("cls");
 					continue;
 			}
@@ -246,7 +248,7 @@ int main (){
 					break;
 				}
 			}else{
-			errorMsj("LA OPCIÓN INGRESADA NO ES VÁLIDA");
+			errorMsj("LA OPCIÓN INGRESADA NO ES VÁLIDA ");
 			}
 		
 	}
